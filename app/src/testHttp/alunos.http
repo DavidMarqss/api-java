@@ -1,0 +1,12 @@
+@baseUrl = https://8080-davidmarqss-apijava-t3su40xtisy.ws-us115.gitpod.io
+
+###
+GET {{baseUrl}}/alunos
+
+###
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+    "nome": "ClebinRuindadePura"
+}
