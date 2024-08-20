@@ -1,12 +1,26 @@
-@baseUrl = https://8080-davidmarqss-apijava-t3su40xtisy.ws-us115.gitpod.io
-
+@baseUrl = https://8080-davidmarqss-apijava-6o9o4ang5m1.ws-us115.gitpod.io
+ 
 ###
 GET {{baseUrl}}/alunos
-
+ 
 ###
 POST {{baseUrl}}/alunos
 Content-Type: application/json
-
+ 
 {
-    "nome": "ClebinRuindadePura"
+    "nome": "ClebinSuino"
 }
+ 
+###
+GET {{baseUrl}}/alunos/2
+ 
+###
+PUT {{baseUrl}}/alunos/2
+Content-Type: application/json
+ 
+{
+    "nome": "CleitinToscana"
+}
+ 
+###
+DELETE {{baseUrl}}/alunos/3
